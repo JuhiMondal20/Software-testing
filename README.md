@@ -17,6 +17,30 @@ This project demonstrates a scalable UI automation framework built using Python 
 - Reusable utilities
 - Config-based execution
 
+## 📂 Project Structure
+The framework follows a modular and scalable structure:
+
+```
+automation-framework/
+│
+├── tests/                # Test cases
+├── pages/                # Page Object Model classes
+├── utils/                # Helper functions
+├── config/               # Configuration files
+├── reports/              # Test execution reports
+├── screenshots/          # Failure screenshots
+│
+├── conftest.py           # Pytest fixtures and setup
+├── requirements.txt      # Dependencies
+├── README.md             # Project documentation
+└── .gitignore            # Ignored files
+```
+
+## 📌 What this project demonstrates
+- Scalable test framework design
+- Clean code practices using POM
+- Real-world automation testing approach
+
 ## 🚀 Features
 - Cross-browser testing
 - Screenshot capture on failure
