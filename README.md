@@ -21,19 +21,51 @@ This project demonstrates a scalable UI automation framework built using Python 
 The framework follows a modular and scalable structure:
 
 ```
-automation-framework/
+automationexercise-pom/
 │
-├── tests/                # Test cases
-├── pages/                # Page Object Model classes
-├── utils/                # Helper functions
-├── config/               # Configuration files
-├── reports/              # Test execution reports
-├── screenshots/          # Failure screenshots
+├── tests/                  # All test scripts
+│   ├── test_homepage.py
+│   ├── test_signup.py
+│   ├── test_login.py
+│   ├── test_logout.py
+│   ├── test_contact_us.py
+│   ├── test_products.py
+│   ├── test_cart.py
+│   ├── test_checkout.py
+│   ├── test_subscription.py
+│   ├── test_category_brand.py
+│   ├── test_invoice.py
+│   ├── test_scroll.py
 │
-├── conftest.py           # Pytest fixtures and setup
-├── requirements.txt      # Dependencies
-├── README.md             # Project documentation
-└── .gitignore            # Ignored files
+├── pages/                  # Page Objects
+│   ├── base_page.py
+│   ├── home_page.py
+│   ├── signup_page.py
+│   ├── login_page.py
+│   ├── account_page.py
+│   ├── contact_page.py
+│   ├── product_page.py
+│   ├── cart_page.py
+│   ├── checkout_page.py
+│   ├── category_page.py
+│   ├── brand_page.py
+│
+├── utils/                  # Helpers
+│   ├── driver_factory.py
+│   ├── config_reader.py
+│   ├── logger.py
+│
+├── resources/              # Test data/configs
+│   ├── config.ini
+│   ├── test_data.json
+│
+├── reports/                # Test reports
+│
+├── conftest.py             # Pytest fixtures
+├── requirements.txt
+└── README.md
+
+
 ```
 
 ## 📌 What this project demonstrates
